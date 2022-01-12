@@ -74,7 +74,7 @@ body{
     background-color:hsl(178, 100%, 50%, 70%);
 }
 
-.container:hover .overlay{
+.img-container:hover .overlay{
     opacity: 1;
     cursor: pointer;
 }
