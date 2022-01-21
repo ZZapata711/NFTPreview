@@ -10,7 +10,7 @@
 }
 
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -39,14 +39,16 @@ img{
 body{
     font-family: 'Outfit', sans-serif;
     background-color: var(--main-bg);
-    padding: 1.25rem;
     color: var(--white);
+    height: 100vh;
+    display: flex;
 }
 
 .container{
     background-color: var(--card-bg);
     padding: 1.25em;
     border-radius: 1.25em;
+    overflow: hidden;
 }
 
 .img-container{
@@ -164,6 +166,6 @@ ul{
 @media (min-width: 500px){
     .container{
         width: 450px;
-        margin: 0 auto 1rem;
+        margin: auto;
     }
 }
